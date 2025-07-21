@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Still on Logic</h2>
+      <script>
+        let fruits = prompt("enter fruit and i will tell you the price: ").toLowerCase();
+        let price;
+
+        switch (fruits) {
+          case "banana":
+            price = 200;
+            break;
+          case "apple":
+            price = 300;
+            break;
+          case "orange":
+            price = 400;
+            break;
+          case "mango":
+            price = 500;
+            break;
+            default:
+            price = " not available for now";
+        }
+
+        document.write(`<h2>The price of ${fruits} is ${price}</h2>`);
+      </script>
+    </div>
+  </body>
+</html>

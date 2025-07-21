@@ -1,0 +1,31 @@
+string. chidera c h i d e r a
+a-z
+AZ
+a-z0-9
+IMMUTABLE
+
+requirement
+problem statement
+analysis and design
+implementation
+
+const employees = [
+  { id: 1, name: "Alice", email: "alice@example.com", gender: "Female", salary: "$95000.50", country: "USA", department: "Engineering", rank: "Senior Developer", hireDate: "2015-05-20" },
+  { id: 2, name: "Bob", email: "bob@example.com", gender: "Male", salary: "$120000.00", country: "Canada", department: "Engineering", rank: "Lead Developer", hireDate: "2012-03-15" },
+  { id: 3, name: "Charlie", email: "charlie@example.com", gender: "Male", salary: "$70000.00", country: "USA", department: "Marketing", rank: "Marketing Specialist", hireDate: "2019-07-10" },
+  { id: 4, name: "David", email: "david@example.com", gender: "Male", salary: "$105000.75", country: "UK", department: "Engineering", rank: "Developer", hireDate: "2018-11-01" },
+  { id: 5, name: "Eve", email: "eve@example.com", gender: "Female", salary: "$98000.00", country: "Australia", department: "HR", rank: "HR Manager", hireDate: "2014-04-25" },
+  { id: 6, name: "Frank", email: "frank@example.com", gender: "Male", salary: "$60000.00", country: "Canada", department: "Support", rank: "Support Specialist", hireDate: "2020-01-15" },
+  { id: 7, name: "Grace", email: "grace@example.com", gender: "Female", salary: "$75000.50", country: "USA", department: "Marketing", rank: "Marketing Manager", hireDate: "2017-08-30" },
+  { id: 8, name: "Hank", email: "hank@example.com", gender: "Male", salary: "$88000.25", country: "USA", department: "Sales", rank: "Sales Executive", hireDate: "2016-06-05" },
+  { id: 9, name: "Ivy", email: "ivy@example.com", gender: "Female", salary: "$115000.00", country: "UK", department: "Engineering", rank: "Senior Developer", hireDate: "2011-09-20" },
+  { id: 10, name: "Jack", email: "jack@example.com", gender: "Male", salary: "$99000.00", country: "Australia", department: "Support", rank: "Support Lead", hireDate: "2013-10-18" },
+];
+
+
+1. display products
+2. add to cart
+3. display product in cart
+4. remove product from cart
+5. checkout
+6. display order history
